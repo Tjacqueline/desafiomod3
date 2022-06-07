@@ -1,0 +1,32 @@
+/* Para importar las 3 fuentes juntas=
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap'); /*h1*/
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap'); /*h2*/
+ @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap'); /*p*/
+
+/*Tipografías*/
+ h1 {font-family: 'Mulish', sans-serif;}
+ h3 {font-family: 'Mulish', sans-serif;}
+ p {font-family: 'Mulish', sans-serif;}
+
+/*Tamaño de la letra*/
+ h1 {font-size:37,48px;}
+ h3 {font-size:21,560000000000002px;}
+ p {font-size:19,973333333333333px;}
+
+/*Color de la letra*/
+ h1, p {color:#04146c}
+ h3 {color:#0a2ff1}
+
+/*Párrafo: {width;margin-top;bottom;margin-left;}*/
+ p {width: 40%; margin-top: 0%;bottom: 0%;margin-left: 70px;}
+
+/*Imágenes: {width; margin-right;}*/
+ img {width:55px; margin-right:15px;}
+
+/*Body: {background-color;}*/
+ body {background-color:white;}
+
+/*Acomodar Imágen y Subtítulo h3*/
+ img, h3 {display:inline; vertical-align:middle;}
